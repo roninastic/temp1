@@ -1,0 +1,29 @@
+.main-container {
+  height: 100vh;
+  background: #a8cef5;
+}
+
+.input-container {
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 33%, rgba(0,212,255,1) 100%);
+  background-repeat: repeat-x;
+  background-origin: content-box;
+  background-size: cover;
+  color: white;
+}
+
+.card-list {
+  display: flex;
+}
+
+h1 {
+  font-size: 72px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
